@@ -58,27 +58,47 @@ The LED segments are selected based on the decimal number. For example, if we wa
 
 ## PROGRAM:
 void setup() 
+
 {
+
   pinMode(13, OUTPUT); // A segment 
+  
   pinMode(12, OUTPUT); // B segment 
+  
   pinMode(11, OUTPUT);  // C segment 
+  
   pinMode(10, OUTPUT); // D segment 
+  
   pinMode(9, OUTPUT); // E segment 
+  
   pinMode(8, OUTPUT); // F segment 
+  
   pinMode(7, OUTPUT); // G segment 
+  
   pinMode(6, OUTPUT); // H segment 
+  
 }
+
 void loop() 
+
 {
 
 digitalWrite(13, HIGH);
+
 digitalWrite(12, LOW);
+
 digitalWrite(11, LOW);
+
 digitalWrite(10, LOW);
+
 digitalWrite(9, HIGH);
+
 digitalWrite(8, HIGH);
+
 digitalWrite(7, HIGH);
+
 digitalWrite(6, LOW);
+
 delay(5000);
   
 }
